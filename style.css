@@ -122,7 +122,9 @@ list-group-flush {
 
 }
 
-input {
-	text-align: center;
+.container-button > input {
+	display: flex;
+	justify-content: center;
+	
 
 }
