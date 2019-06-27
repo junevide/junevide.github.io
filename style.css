@@ -16,6 +16,8 @@ body {
 
 .container-fluid {
 	background-color:blue;
+	
+
 }
 
 img {
@@ -83,48 +85,43 @@ li {
 	
 }
 
-.signup {
-  background-color: white;
-  border:2px solid blue;
-  border-radius: 20px;
-  color: blue;
-  padding: 12px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 19px;
-  font-family: garamond;
-  transition: all 900ms;
-
-}
-
-.clear {
-	text-align: center;
-}
-
-
-.signup:hover {
-	background-color: blue;
-	color:white;
-
-
-}
-
-#mc_embed_signup {
-	display: flex;
-	justify-content: center;
-
-}
-
-list-group-flush {
-	display: flex;
-	flex-direction: row;
-
-}
-
-.container-button > input {
-	display: flex;
-	justify-content: center;
+.container-fluid2 {
+	background-color:blue;
 	
 
 }
+button {
+  background-color: blue;
+  border:2px solid white;
+  border-radius: 20px;
+  color: white;
+  padding: 12px 32px;
+  font-size: 19px;
+  font-family: garamond;
+  transition: all 500ms;
+
+}
+
+button:hover {
+	background-color: white;
+	color:blue;
+}
+
+.container-fluid2 > .button {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	
+}
+
+.container3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#junepics > img {
+	margin: 13px;
+}
+
