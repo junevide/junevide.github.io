@@ -113,11 +113,17 @@ li {
 #mc_embed_signup {
 	display: flex;
 	justify-content: center;
-	
+
 }
 
 list-group-flush {
 	display: flex;
 	flex-direction: row;
 
+}
+
+input {
+	display: flex;
+	justify-content: center;
+	
 }
