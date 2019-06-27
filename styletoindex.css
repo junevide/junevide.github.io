@@ -1,0 +1,38 @@
+
+body {
+	background-color:lightgrey;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+h1 {
+	font-family: courier;
+	font-size:2em;
+	border-bottom: 2px solid blue;
+	border-right: 2px solid blue;
+	width: 300px;
+	text-align: center;
+	margin: 10px auto;
+    float:center;
+
+
+}
+
+img {
+	width: 450px;
+
+	margin: 13px;
+	transition: all 1s;
+
+
+}
+img:hover {
+	transform: scale(1.1);
+}
+
